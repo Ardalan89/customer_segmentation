@@ -26,10 +26,9 @@ This dataset contains information about 200 mall customers.
 customer-segmentation/
 │
 ├── data/
-│   ├── raw/
-│   │   └── Mall_Customers.csv
+│   ├── raw/ 
 │   └── processed/
-│       └── mall_customers_clean.csv
+│     
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb
@@ -49,7 +48,9 @@ customer-segmentation/
 │   └── model_kmeans_cluster.joblib
 │
 ├── results/
-│   └── metrics_report.txt
+│   ├── cluster_visualizations/
+│   ├── predict_new_customer_cluster.csv
+│   └── predict_customer_cluster.csv
 │
 ├── README.md
 ├── requirements.txt
