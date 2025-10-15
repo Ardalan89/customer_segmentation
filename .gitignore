@@ -134,14 +134,19 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# data
-data/raw/*
+# Ignore everything under data/
+data/**
+
+# Keep folder structure only
+!data/
+!data/raw/
+!data/processed/
+
+# Keep placeholder files 
 !data/raw/.gitkeep
+!data/processed/.gitkeep
 !data/README.md
 
-data/processed/*
-!data/processed/.gitkeep
-!data/processed/README.md
 
 # Environments
 .env
