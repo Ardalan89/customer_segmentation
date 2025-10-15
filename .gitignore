@@ -145,7 +145,7 @@ data/**
 # Keep placeholder files 
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-!data/README.md
+!data/raw/README.md
 
 
 # Environments
