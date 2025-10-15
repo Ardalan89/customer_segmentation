@@ -40,7 +40,7 @@ def main(model_type):
     pred_df['customer_cluster_' + model_type.lower()] = y_pred
 
     # output file path
-    pred_path = './data/predict_new_customer_cluster.csv'
+    pred_path = './results/predict_new_customer_cluster.csv'
 
     # save or update the file
     if not os.path.exists(pred_path):

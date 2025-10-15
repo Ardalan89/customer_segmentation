@@ -1,0 +1,12 @@
+CustomerID,Genre,Age,Annual Income (k$),Spending Score (1-100),customer_cluster_kmeans,customer_cluster_hc
+190,Female,36,103,85,3,4
+191,Female,34,103,23,1,2
+192,Female,32,103,69,3,4
+193,Male,33,113,8,1,2
+194,Female,38,113,91,3,4
+195,Female,47,120,16,1,2
+196,Female,35,120,79,3,4
+197,Female,45,126,28,1,2
+198,Male,32,126,74,3,4
+199,Male,32,137,18,1,2
+200,Male,30,137,83,3,4
