@@ -134,6 +134,15 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# data
+data/raw/*
+!data/raw/.gitkeep
+!data/README.md
+
+data/processed
+!data/processed/.gitkeep
+!data/processed/README.md
+
 # Environments
 .env
 .envrc
